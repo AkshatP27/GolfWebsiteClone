@@ -110,7 +110,7 @@ video{
 #page1 h1::before{     /* CSS Psuedos */
     content: "EAT. DRINK. PLAY.";
     position: absolute;
-    color: black;
+    color: #95C11E;
     top: -7px;
     left: -7px;
     -webkit-text-stroke: 2px #95C11E;
