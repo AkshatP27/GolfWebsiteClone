@@ -398,4 +398,54 @@ video{
     height: 54vh;
     width: 100%;
     background: linear-gradient(to right top, #A1D120, #2AA635);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6.3vw;
+    padding: 0 100px;
+}
+#footer > #img1{
+    position: absolute;
+    left: 0;
+    height: 100%;
+    z-index: 0;
+}
+#footer > #img2{
+    position: absolute;
+    right: 0;
+    height: 100%;
+    z-index: 0;
+}
+#f1 img{
+    height: 90px;
+}
+#f1, #f2, #f3, #f4{
+    width: fit-content;
+    position: relative;
+    z-index: 99;
+}
+#f2 h3{
+    font-size: 1.8vw;
+    white-space: nowrap;
+    /* text-transform: uppercase; */
+    color: #000;
+    font-weight: 900;
+    margin-bottom: 9px;
+}
+#f3 h3{
+    font-size: 1.8vw;
+    white-space: nowrap;
+    /* text-transform: uppercase; */
+    color: #000;
+    font-weight: 810;
+    margin-bottom: 9px;
+}
+#f4 h4{
+    font-size: .9vw;
+    white-space: nowrap;
+    /* text-transform: uppercase; */
+    color: #000;
+    font-weight: 630;
+    margin-bottom: 9px;
 }
