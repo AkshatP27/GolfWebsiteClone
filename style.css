@@ -17,6 +17,18 @@ html, body{
     /* perspective: 810px; */
 }
 
+body::-webkit-scrollbar{
+    display: block;
+    width: 9px;
+    border-radius: 54px;
+    background-color: #95C11E;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: white;
+    border-radius: 54px;
+}
+
+
 #cursor{
     height: 18px;
     width: 18px;
